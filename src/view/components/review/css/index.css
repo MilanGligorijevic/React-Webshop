@@ -1,0 +1,7 @@
+.review-div{
+    flex-direction: column;
+    gap: 5px;
+    width: 20vw;
+    min-width: 15vw;
+    text-align: justify;
+}

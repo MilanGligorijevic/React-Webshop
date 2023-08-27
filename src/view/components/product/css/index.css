@@ -1,0 +1,27 @@
+.product-preview-img{
+    height: 275px;
+    width: 275px;
+    object-fit: cover;
+}
+
+.product{
+    background-color: rgba(230,231,236,255);
+}
+
+.product-title{
+    color: #222;
+}
+
+.product-link:hover{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.product-price{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.product-caption{
+    font-size: 18px;
+}

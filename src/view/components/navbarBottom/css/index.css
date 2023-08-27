@@ -1,0 +1,33 @@
+.nav-bar-bottom{
+    background-color: #2e2e2e;
+}
+
+.list-item{
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+.list-item-link{
+    color: #F9F7F7;
+}
+
+.list-item-link:hover{
+    text-decoration: none;
+    color: #F9F7F7;
+    padding-bottom: 3px;
+    border-bottom: 4px solid #F9F7F7;
+}
+
+.sale-text:hover{
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 5px solid red;
+    text-decoration: none;   
+}
+
+.sale-text{
+    color: red;
+}
+
+
+

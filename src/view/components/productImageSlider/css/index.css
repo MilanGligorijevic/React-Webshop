@@ -1,0 +1,20 @@
+.product-image{
+    width: 75px;
+    height: 75px;
+}
+
+.product-image:hover{
+    outline: 2px solid #22222267;
+    
+}
+
+.main-image-div{
+    height: fit-content;
+    width: fit-content;
+}
+
+.main-image{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}

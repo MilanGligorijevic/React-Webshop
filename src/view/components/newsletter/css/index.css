@@ -1,0 +1,32 @@
+.newsletter-img{
+    width: 70px;
+    height: 64px;
+}
+
+.newsletter{
+    background-color: white;
+    height: 90px;
+    
+}
+
+.newsletter-text{
+    font-size: 20px;
+}
+
+.newsletter-btn{
+    min-height: 32px;
+    border: solid #222222c4 1px;
+}
+
+.newsletter-btn:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.news{
+    text-decoration: underline;
+}
+
+.news:hover{
+    color: #222222de;
+    cursor: pointer;
+}

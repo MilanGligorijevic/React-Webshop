@@ -1,0 +1,69 @@
+.sign-in-form{
+    position: relative;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    z-index: 10;
+    box-shadow: 0 0 0 9999px #000000b0;
+    background-color: white;
+}
+
+.input-email{
+    outline: none;
+}
+
+.input-pass{
+    outline: none;
+}
+
+.btn-close-form{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-sign-in{
+    background-color: #222;
+    color: #F9F7F7;
+    cursor: pointer;
+}
+
+.btn-sign-in:hover{
+    background-color: #313131;
+}
+
+.create-account{
+    color: rgb(33, 33, 33, 0.7);
+    font-size: 13px;
+    text-align: center;
+}
+
+.create-acc{
+    text-decoration: underline;
+}
+
+.close-icon{
+    height: 25px;
+    width: 25px;
+}
+
+.btn-sign-in-google{
+    color: #222;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btn-sign-in-google:hover{
+    background-color: rgb(248, 248, 248);
+}

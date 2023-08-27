@@ -1,0 +1,46 @@
+.footer-root{
+    background-color: #222;
+}
+
+.footer-div{ 
+    margin-left:20%;
+    margin-right:20%;
+    width: 60%;
+    color: #f9f7f7a2;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.title-li{
+    font-size: 18px;
+    color: #F9F7F7;
+}
+
+.language-img{
+    width: 36px;
+    height: 22px;
+}
+
+.horizontal-line{
+    background-color: #363636;
+}
+
+.instagram-icon, .facebook-icon, .twitter-icon, .youtube-icon{
+    width: 19px;
+    height: 19px;
+}
+
+.footer-list-about>li:nth-child(n + 2):hover, .footer-list-help>li:nth-child(n + 2):hover, .footer-list-contact>li:nth-child(n + 2):hover, .footer-list-socials>li:nth-child(n + 2):hover{
+    text-decoration: underline;
+}
+
+.my-github{
+    color: #f9f7f7a2;
+}
+
+.my-github:hover{
+    color: #f9f7f7a2;
+}

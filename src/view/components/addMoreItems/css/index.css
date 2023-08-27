@@ -1,0 +1,62 @@
+.plus-minus-items{
+    align-items: center;
+    border: solid 1px #22222242;
+}
+
+.num-of-item{
+    width: 24px;
+    text-align: center;
+}
+
+.item-price{
+    width: 50px;
+    text-align: center;
+}
+
+button:focus{
+    outline: none;
+}
+
+.remove-item{
+    background-color: white;
+    color: #22222285;
+    border: none;
+    font-size: 14px;
+}
+
+.minus-item{
+    border: solid #222222c4 1px;
+    width: 30px;
+    font-weight: 500;
+    border: none;
+    background-color: white;
+}
+
+.plus-item{
+    border: solid #222222c4 1px;
+    width: 30px;
+    font-weight: 500;
+    border: none;
+    background-color: white;
+}
+
+.minus-item:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.plus-item:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.remove-item:hover{
+    color: #222;
+}
+
+.remove-item-icon{
+    width: 16px;
+    height: 16px;
+}
+
+.remove-item-icon:hover{
+    cursor: pointer;
+}

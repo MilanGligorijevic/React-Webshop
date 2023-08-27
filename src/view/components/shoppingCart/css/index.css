@@ -1,0 +1,124 @@
+.shopping-components{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shopping-cart-root{
+    background-color: white;
+    flex-direction: column;
+    gap: 5px;
+    width: 35%;
+}
+
+.cart-title{
+    font-size: 28px;
+}
+
+.order-title{
+    font-size: 28px;
+}
+
+.item-thumbnail{
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+}
+
+.item-div{
+    align-items: center;
+    position: relative;
+    gap: 7px;
+}
+
+.item-title{
+    min-width: 200px;
+}
+
+.btn-remove-item{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 1px;
+    right: -30px;
+    cursor: pointer;
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove-item-icon{
+    width: 25px;
+    height: 25px;
+}
+
+.order-overview{
+    background-color: white;
+    width: 35%;
+}
+.total-price, .items-price, .loyalty-points, .shipping-fee{
+    position: relative;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.overview-text{
+    position: absolute;
+    right: 0px;
+}
+
+.checkout-btn{
+    width: 100%;
+    min-height: 32px;
+    border: solid #222222c4 1px;
+}
+
+.checkout-btn:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.loyalty-points{
+    padding: 10px;
+    background-color: rgba(172, 172, 172, 0.089);
+}
+
+.loyalty-points>.overview-text{
+    right: 10px;
+}
+
+.total-price{
+    font-size: 22px;
+}
+
+.total-price>.overview-text{
+    font-weight: bold;
+}
+
+.empty-cart-div{
+    flex-direction: column;
+}
+
+.empty-cart-img{
+    width: 400px;
+    height: 400px;
+}
+
+.empty-cart-text{
+    font-size: 20px;
+}
+
+.home-page-link{
+    font-size: 18px;
+    color: #222;
+    text-decoration: none;
+}
+
+.home-page-link:hover{
+    text-decoration: underline #222;
+    color: #222222de;
+}
+
+
+.link-div:hover{
+    text-decoration: none;
+}

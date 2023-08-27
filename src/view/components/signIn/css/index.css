@@ -1,0 +1,9 @@
+.sign-in-btn{
+    height: 26px;
+    cursor: pointer;
+    background-color: #F9F7F7;
+}
+
+.sign-in-btn:focus{
+    outline: none;
+}

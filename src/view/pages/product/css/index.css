@@ -1,0 +1,102 @@
+.products-page{
+    gap: 5px;
+    background-color: #F9F7F7;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.product-details{
+    width: 320px;
+}
+
+
+.product-detail{
+    font-size: 20px;
+}
+
+.product-detail-price{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.product-detail-description{
+    font-size: 20px;
+}
+
+.add-to-cart-price{
+    color: rgba(238, 16, 16, 0.699);
+    font-size: 22px;
+}
+
+.delivery{
+    font-size: 15px;
+}
+
+.delivery-pin{
+    width: 20px;
+    height: 20px;
+}
+
+.add-to-cart-button{
+    width: 100%;
+    min-height: 32px;
+    border: solid #222222c4 1px;
+}
+
+
+.add-to-cart-button:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+
+.add-to-cart-div{
+    height: fit-content;
+    max-width: 190px;
+    border: solid #2222227a 1px;
+    margin-left: 8vw;
+    position: relative;
+}
+
+
+
+ .add-to-cart-button:focus{
+    outline: none;
+ }
+
+.added-to-cart{
+    color: rgb(0, 177, 0);
+    margin: 0;
+}
+
+.added-item-icon{
+    margin: 0;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+}
+
+.delivery-cost{
+    font-size: 15px;
+}
+
+.returns{
+    font-size: 13px;
+} 
+
+.horizontal-line{
+    width: 80%;
+    background-color: #22222209;
+}
+
+.top-reviews{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 70px;
+}
+
+.top-reviews-title{
+    font-size: 22px;
+    margin-left: 10%;
+}

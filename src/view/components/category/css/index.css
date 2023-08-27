@@ -1,0 +1,31 @@
+.products-category{
+    height: 382px;
+    background-color: rgba(230,231,236,255);
+    flex: 1 0 21%;
+}
+
+.product-img{
+    width: 340px;
+    height: 330px;
+    object-fit: cover;
+}
+
+
+.category-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.show-more-text{
+    font-size: 15px;
+    color: #222;
+    text-decoration: none;
+}
+
+.show-more-text:hover{
+    text-decoration: underline #222;
+}
+
+.link-div:hover{
+    text-decoration: none;
+}

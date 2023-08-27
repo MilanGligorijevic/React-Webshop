@@ -1,0 +1,24 @@
+.sale-title{
+    font-size: 30px;
+}
+
+.red-text{
+    color: red;
+}
+
+.sale-products-div{
+    color: red;
+}
+
+.product-on-sale{
+    position: relative;
+}
+
+.full-price{
+    position: absolute;
+    bottom: 2%;
+    left: 25%;
+    font-size: 17px;
+    color: #222222d3;
+    text-decoration: line-through;
+}

@@ -1,0 +1,11 @@
+.category-products-text{
+    font-size: 30px;
+    color: #222;
+}
+
+.category-products-container{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    row-gap: 25px;
+}

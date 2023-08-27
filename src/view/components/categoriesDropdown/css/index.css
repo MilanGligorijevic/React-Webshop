@@ -1,0 +1,36 @@
+.categories-list{
+    position: absolute;
+    margin-top: 4px;
+    right: 18.5%;
+    z-index: 6;
+    width: fit-content;
+    height: fit-content;
+    background-color: #2e2e2e;
+    color: #F9F7F7;
+    display: grid;
+    grid-template-columns: 180px 180px;
+}
+
+.categories-dropdown{
+    width: 25px;
+    height: 24px;
+}
+
+
+
+.categories-text:hover{
+    text-decoration: none;
+    color: #F9F7F7;
+    padding-bottom: 3px;
+    border-bottom: 4px solid #F9F7F7;
+}
+
+.link-categories{
+    color: #F9F7F7;
+}
+
+.link-categories:hover{
+    text-decoration: underline #F9F7F7;
+    color: #F9F7F7;
+}
+

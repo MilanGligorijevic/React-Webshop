@@ -1,0 +1,19 @@
+.btn-back-top{
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #333333;
+    color: #F9F7F7;
+    cursor: pointer;
+}
+
+.btn-back-top:hover{
+    background-color: #303030;
+}
+
+.btn-back-top:focus{
+    border: none;
+    outline: none;
+}
+
