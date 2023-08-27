@@ -32,7 +32,7 @@ function Category(props: { categoryName: string }) {
                     if (index > 0) return;
                     // prikaz samo jedne slike prvog proizvoda iz kategorije, iako povlacim sve proizvode za svaki slucaj
                     return (
-                        <div className="products-category mx-1 my-1 d-flex flex-column mx-2 my-2 rounded">
+                        <div className="products-category mx-1 my-1 d-flex flex-column mx-2 my-2 rounded" key={index}>
                             <div className="category-name text-center">
                                 {firstLetterUpperCase(product.category)}
                             </div>

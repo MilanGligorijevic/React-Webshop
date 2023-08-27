@@ -49,7 +49,7 @@ function CategorySlider({ category }: { category: string }) {
         <Carousel className="carousel mt-3 mb-3 rounded" draggable={false} responsive={responsive}>
             {products && products.map((product: Product, index: number) => {
                 return (
-                    <Link className="link-div" to={`/products/${product.id}`} >
+                    <Link className="link-div" to={`/products/${product.id}`} key={index} >
                         <div>
                             <img className="carousel-product-img img-fluid ml-2 mr-2 rounded" src={product.images[0]} alt="product-img" />
                         </div>

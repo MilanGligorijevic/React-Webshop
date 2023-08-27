@@ -31,7 +31,7 @@ function CategoriesSection() {
                 categories && categories.map((category: string, index: number) => {
                     if (index > numberOfPopularCategories) return;
                     return (
-                        <Category categoryName={category} />
+                        <Category categoryName={category} key={index} />
                     );
                 })
             }
