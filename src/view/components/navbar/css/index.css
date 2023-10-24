@@ -9,8 +9,8 @@
 }
 
 .nav-logo-brand{
-    width: 58px;
-    height: 58px;
+    width: 5.8rem;
+    height: 5.8rem;
 }
 
 .nav-bar-links{
@@ -18,40 +18,63 @@
 }
 
 .logo-img{
-    width: 58px;
-    height: 58px;
-    min-width: 55px;
-    min-height: 55px;
+    width: 5.8rem;
+    height: 5.8rem;
+    min-width: 5.5rem;
+    min-height: 5.5rem;
 }
 
 
 
 .nav-profile-icon{
-    width: 23px;
-    height: 23px;
+    width: 2.3rem;
+    height: 2.3rem;
 }
 
 .profile-icon{
-    min-width: 23px;
-    min-height: 23px;
+    min-width: 2.3rem;
+    min-height: 2.3rem;
 }
 
 .nav-shopping-icon{
     position: relative;
-    width: 23px;
-    height: 23px;
+    width: 2.3rem;
+    height: 2.3rem;
 }
 
 .shopping-icon{
-    min-width: 23px;
-    min-height: 23px;
+    min-width: 2.3rem;
+    min-height: 2.3rem;
 }
 
 .shopping-items{
     position: absolute;
-    left: 12px;
-    top: 3px;
+    left: 1.2rem;
+    top: 0.3rem;
     color: #222;
+}
+
+.hr-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 37.5em) {
+    .nav-bar{ 
+        margin-left:10%;
+        margin-right:10%;
+        width: 80%;
+    }
+    .logo-img{
+        width: 5.6rem;
+        height: 5.6rem;
+        min-width: 5.5rem;
+        min-height: 5.5rem;
+    }
+    .hr-mobile{
+        display: block;
+        background-color: #2e2e2e;
+        height: .4rem;
+    }
 }
 
 

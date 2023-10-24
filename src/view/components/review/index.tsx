@@ -20,9 +20,9 @@ function Review({ reviewNumber }: { reviewNumber: number }) {
                 value={parseFloat(review.rating)}
                 precision={0.5}
                 readOnly
-                size="medium"
+                size="large"
             />
-            <h5 className="review-title">{review.title}</h5>
+            <div className="review-title">{review.title}</div>
             <div className="review-text">{review.reviewText}</div>
         </div>
     );

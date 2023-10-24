@@ -3,53 +3,61 @@
     justify-content: center;
 }
 
+.test{
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+}
+
 .shopping-cart-root{
     background-color: white;
     flex-direction: column;
-    gap: 5px;
+    gap: .5rem;
     width: 35%;
 }
 
 .cart-title{
-    font-size: 28px;
+    font-size: 2.8rem;
 }
 
 .order-title{
-    font-size: 28px;
+    font-size: 2.8rem;
 }
 
 .item-thumbnail{
     object-fit: cover;
-    width: 60px;
-    height: 60px;
+    width: 8.2rem;
+    height: 8.2rem;
 }
 
 .item-div{
     align-items: center;
     position: relative;
-    gap: 7px;
+    gap: .7rem;
 }
 
 .item-title{
-    min-width: 200px;
+    min-width: 20rem;
+    font-size: 1.6rem;
 }
 
 .btn-remove-item{
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
     position: absolute;
     top: 1px;
-    right: -30px;
+    right: -3rem;
     cursor: pointer;
     background-color: white; 
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .remove-item-icon{
-    width: 25px;
-    height: 25px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .order-overview{
@@ -58,8 +66,8 @@
 }
 .total-price, .items-price, .loyalty-points, .shipping-fee{
     position: relative;
-    margin-top: 10px;
-    font-size: 18px;
+    margin-top: 1rem;
+    font-size: 1.8rem;
 }
 
 .overview-text{
@@ -69,8 +77,9 @@
 
 .checkout-btn{
     width: 100%;
-    min-height: 32px;
+    min-height: 3.2rem;
     border: solid #222222c4 1px;
+    font-size: 1.6rem;
 }
 
 .checkout-btn:hover{
@@ -78,16 +87,16 @@
 }
 
 .loyalty-points{
-    padding: 10px;
+    padding: 1rem;
     background-color: rgba(172, 172, 172, 0.089);
 }
 
 .loyalty-points>.overview-text{
-    right: 10px;
+    right: 1rem;
 }
 
 .total-price{
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 
 .total-price>.overview-text{
@@ -99,16 +108,16 @@
 }
 
 .empty-cart-img{
-    width: 400px;
-    height: 400px;
+    width: 40rem;
+    height: 40rem;
 }
 
 .empty-cart-text{
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .home-page-link{
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #222;
     text-decoration: none;
 }
@@ -121,4 +130,66 @@
 
 .link-div:hover{
     text-decoration: none;
+}
+
+@media  screen and (max-width: 75em) {
+    .shopping-cart-root{
+        width: 55%;
+    }
+    .order-overview{
+        width: 55%;
+    }
+    .item-title{
+        margin-right: auto;
+    }
+}
+
+@media  screen and (max-width: 56.25em) {
+    .shopping-cart-root{
+        width: 55%;
+    }
+    .order-overview{
+        width: 55%;
+    }
+    .item-title{
+        margin-right: auto;
+    }
+    .empty-cart-img{
+        width: 35rem;
+        height: 35rem;
+    }
+}
+
+
+
+@media  screen and (max-width: 37.5em) {
+    .shopping-cart-root{
+        width: 74%;
+    }
+    .order-overview{
+        width: 74%;
+    
+
+    }
+    .item-title{
+        font-size: 1.5rem;
+    }
+    .empty-cart-img{
+        width: 30rem;
+        height: 30rem;
+    }
+    .item-thumbnail{
+        height: 6rem;
+        width: 6rem;
+    }
+    .order-title, .cart-title{
+        font-size: 2.3rem;
+    }
+    .items-price, .overview-text{
+        font-size: 2rem;
+    }
+    .total-price, .loyalty-points, .shipping-fee{
+        font-size: 1.9rem;
+    }
+    
 }

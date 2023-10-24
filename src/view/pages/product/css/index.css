@@ -1,5 +1,9 @@
+.product-page{
+    min-height: 100vh;
+}
+
 .products-page{
-    gap: 5px;
+    gap: .5rem;
     background-color: #F9F7F7;
     width: 80%;
     margin-left: 10%;
@@ -7,41 +11,42 @@
 }
 
 .product-details{
-    width: 320px;
+    width: 32rem;
 }
 
 
 .product-detail{
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .product-detail-price{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 600;
 }
 
 .product-detail-description{
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .add-to-cart-price{
     color: rgba(238, 16, 16, 0.699);
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 
 .delivery{
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 
 .delivery-pin{
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
 }
 
 .add-to-cart-button{
     width: 100%;
-    min-height: 32px;
+    min-height: 3.2rem;
     border: solid #222222c4 1px;
+    font-size: 1.6rem;
 }
 
 
@@ -52,7 +57,7 @@
 
 .add-to-cart-div{
     height: fit-content;
-    max-width: 190px;
+    max-width: 19rem;
     border: solid #2222227a 1px;
     margin-left: 8vw;
     position: relative;
@@ -71,17 +76,17 @@
 
 .added-item-icon{
     margin: 0;
-    width: 18px;
-    height: 18px;
+    width: 1.8rem;
+    height: 1.8rem;
     padding: 0;
 }
 
 .delivery-cost{
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 
 .returns{
-    font-size: 13px;
+    font-size: 1.3rem;
 } 
 
 .horizontal-line{
@@ -93,10 +98,91 @@
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    gap: 70px;
+    gap: 7rem;
 }
 
 .top-reviews-title{
-    font-size: 22px;
+    font-size: 2.2rem;
     margin-left: 10%;
+}
+
+.mobile-product-image-slider{
+    display: none;
+}
+
+@media screen and (max-width: 56.25em) {
+    .product-detail{
+        font-size: 1.6rem;
+    }
+    .product-detail-price{
+        font-size: 2.2rem;
+    }
+    .product-detail-description{
+        font-size: 1.6rem;
+    }
+    .add-to-cart-button{
+        font-size: 1.4rem;
+    }
+    .returns{
+        font-size: 1.2rem;
+    }
+    .top-reviews-title{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+    .product-detail{
+        font-size: 1.4rem;
+    }
+    .product-detail-price{
+        font-size: 2rem;
+    }
+    .product-detail-description{
+        font-size: 1.4rem;
+    }
+    .add-to-cart-button{
+        font-size: 1.11rem;
+    }
+    .returns{
+        font-size: 1rem;
+    }
+    .top-reviews{
+        gap: 7rem;
+    }
+    .mobile-product-image-slider{
+        display: block;
+    }
+    .products-page{
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .top-reviews{
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .add-to-cart-div{
+        height: fit-content;
+        max-width: 15rem;
+        margin-left: 4vw;
+    }
+    .horizontal-line{
+        width: 92%;
+    }
+    .top-reviews-title{
+        margin-left: 4%;
+        font-size: 1.6rem;
+    }
+    .delivery{
+        font-size: 1.25rem;
+    }
+    .delivery-cost{
+        font-size: 1.25rem;
+    }
+    .delivery-pin{
+        height: 1.6rem;
+        width: 1.6rem;
+    }
 }

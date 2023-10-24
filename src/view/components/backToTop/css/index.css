@@ -1,11 +1,12 @@
 .btn-back-top{
     width: 100%;
-    height: 35px;
+    height: 3.5rem;
     border: none;
     outline: none;
     background-color: #333333;
     color: #F9F7F7;
     cursor: pointer;
+    font-size: 1.6rem;
 }
 
 .btn-back-top:hover{
@@ -17,3 +18,10 @@
     outline: none;
 }
 
+@media screen and (max-width: 37.5em) {
+    .btn-back-top{
+        height: 3.3rem;
+        color: #F9F7F7;
+        font-size: 1.5rem;
+    }
+}

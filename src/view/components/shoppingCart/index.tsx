@@ -54,13 +54,13 @@ function ShoppingCartComponent() {
 
 
     return (
-        <>
+        <div className="test">
             {cartItems.length === 0 && <div className="empty-cart-div d-flex align-items-center"> {/* prikazuje se kada je prazna korpa */}
                 <img src={emptyShoppingCartLogo} className="empty-cart-img mt-5 mb-3" />
                 <div className="empty-cart-text">Your shopping cart is empty</div>
                 <Link to="/" className="home-page-link mt-2">Get back to Home page</Link>
             </div>}
-            {cartItems.length !== 0 && <div className="shopping-components align-items-center d-flex"> {/* prikazuje se kada korpa sadrzi proizvode*/}
+            {cartItems.length !== 0 && <div className="shopping-components d-flex align-items-center "> {/* prikazuje se kada korpa sadrzi proizvode*/}
                 <div className="shopping-cart-root px-2 d-flex rounded m-4">
                     <div className="cart-title">Your cart</div>
                     {
@@ -101,8 +101,8 @@ function ShoppingCartComponent() {
             </div>}
 
 
-            <Newsletter />
-        </>
+
+        </div>
     );
 }
 

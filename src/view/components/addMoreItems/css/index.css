@@ -4,13 +4,15 @@
 }
 
 .num-of-item{
-    width: 24px;
+    width: 2.4rem;
     text-align: center;
+    font-size: 1.6rem;
 }
 
 .item-price{
-    width: 50px;
+    width: 5rem;
     text-align: center;
+    font-size: 1.6rem;
 }
 
 button:focus{
@@ -21,23 +23,26 @@ button:focus{
     background-color: white;
     color: #22222285;
     border: none;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .minus-item{
     border: solid #222222c4 1px;
-    width: 30px;
+    width: 3rem;
     font-weight: 500;
     border: none;
     background-color: white;
+    font-size: 1.6rem;
+
 }
 
 .plus-item{
     border: solid #222222c4 1px;
-    width: 30px;
+    width: 3rem;
     font-weight: 500;
     border: none;
     background-color: white;
+    font-size: 1.6rem;
 }
 
 .minus-item:hover{
@@ -53,10 +58,33 @@ button:focus{
 }
 
 .remove-item-icon{
-    width: 16px;
-    height: 16px;
+    width: 1.6rem;
+    height: 1.6rem;
 }
 
 .remove-item-icon:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width: 37.5em){
+    .plus-item{
+        width: 2rem;
+        font-size: 1.3rem;
+    }
+    .minus-item{
+        width: 2rem;
+        font-size: 1.3rem;
+    }
+    .remove-item{
+        font-size: 1.2rem;
+    }
+    .num-of-item{
+        width: 1.8rem;
+        font-size: 1.4rem;
+    }
+    
+    .item-price{
+        min-width: 5.2rem;
+        font-size: 1.6rem;
+    }
 }

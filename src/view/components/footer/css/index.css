@@ -11,17 +11,21 @@
 
 ul{
     list-style-type: none;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .title-li{
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #F9F7F7;
 }
 
 .language-img{
-    width: 36px;
-    height: 22px;
+    width: 3.6rem;
+    height: 2.2rem;
+}
+
+.rights-div{
+    font-size: 1.6rem;
 }
 
 .horizontal-line{
@@ -29,12 +33,13 @@ ul{
 }
 
 .instagram-icon, .facebook-icon, .twitter-icon, .youtube-icon{
-    width: 19px;
-    height: 19px;
+    width: 1.9rem;
+    height: 1.9rem;
 }
 
 .footer-list-about>li:nth-child(n + 2):hover, .footer-list-help>li:nth-child(n + 2):hover, .footer-list-contact>li:nth-child(n + 2):hover, .footer-list-socials>li:nth-child(n + 2):hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .my-github{
@@ -43,4 +48,28 @@ ul{
 
 .my-github:hover{
     color: #f9f7f7a2;
+}
+
+@media screen and (max-width: 37.5em){
+    .instagram-icon, .facebook-icon, .twitter-icon, .youtube-icon{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .footer-div{ 
+        margin-left:13%;
+        margin-right:13%;
+        width: 74%;
+        color: #f9f7f7a2;
+    }
+    .rights-div{
+        font-size: 1.4rem;
+    }
+    .title-li{
+        font-size: 1.5rem;
+        color: #F9F7F7;
+    }
+    .footer-list-about, .footer-list-help, .footer-list-contact, .footer-list-socials{
+        list-style-type: none;
+        font-size: 1.3rem;
+    }
 }

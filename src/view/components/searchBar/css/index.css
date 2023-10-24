@@ -10,29 +10,30 @@
 .search-bar{
     outline: none;
     flex-grow: 1;
+    font-size: 1.6rem;
 }
 
 
 
 .search-btn-div{
-    width: 850px;
-    min-width: 250px;
-    height: 35px;
+    width: 85rem;
+    min-width: 25rem;
+    height: 3.5rem;
     background-color: #fff;
     position: relative;
 }
 
 .search-form{
-    min-width: 250px;
-    max-width: 950px;
+    min-width: 25rem;
+    max-width: 95rem;
 }
 
 .dropdown-list{
     position: absolute;
-    top: 34px;
+    top: 3.4rem;
     width: 100%;
-    min-width: 250px;
-    max-width: 950px;
+    min-width: 25rem;
+    max-width: 95rem;
     z-index: 6;
     background-color: #fff;
     color: #2e2e2e;
@@ -46,7 +47,7 @@
 }
 
 .product-list-item-link{
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #2e2e2e;
 }
 

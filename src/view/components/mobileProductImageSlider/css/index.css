@@ -1,0 +1,37 @@
+.product-image-mobile{
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.product-image-mobile:hover{
+    outline: 2px solid #22222267;
+    
+}
+
+.main-image-div-mobile{
+    height: fit-content;
+    width: fit-content;
+}
+
+.main-image-mobile{
+    width: 40rem;
+    height: 40rem;
+    object-fit: cover;
+}
+
+.product-images-list-mobile{
+    margin-top: .5rem;
+}
+
+
+
+@media screen and (max-width: 56.25em){
+    .main-image-mobile{
+        width: 27rem;
+        height: 24rem;
+    }
+    .product-image-mobile{
+        width: 5rem;
+        height: 5rem;
+    }
+}

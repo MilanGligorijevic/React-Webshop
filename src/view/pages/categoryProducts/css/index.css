@@ -1,5 +1,5 @@
 .category-products-text{
-    font-size: 30px;
+    font-size: 3rem;
     color: #222;
 }
 
@@ -7,5 +7,5 @@
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    row-gap: 25px;
+    row-gap: 2.5rem;
 }

@@ -1,6 +1,6 @@
 .categories-list{
     position: absolute;
-    margin-top: 4px;
+    margin-top: 0.28rem;
     right: 18.5%;
     z-index: 6;
     width: fit-content;
@@ -8,12 +8,12 @@
     background-color: #2e2e2e;
     color: #F9F7F7;
     display: grid;
-    grid-template-columns: 180px 180px;
+    grid-template-columns: 18rem 18rem;
 }
 
 .categories-dropdown{
-    width: 25px;
-    height: 24px;
+    width: 2.5rem;
+    height: 2.4rem;
 }
 
 
@@ -21,8 +21,8 @@
 .categories-text:hover{
     text-decoration: none;
     color: #F9F7F7;
-    padding-bottom: 3px;
-    border-bottom: 4px solid #F9F7F7;
+    padding-bottom: .1rem;
+    border-bottom: .4rem solid #F9F7F7;
 }
 
 .link-categories{

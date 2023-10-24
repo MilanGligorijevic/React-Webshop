@@ -1,20 +1,20 @@
 .newsletter-img{
-    width: 70px;
-    height: 64px;
+    width: 7rem;
+    height: 6.4rem;
 }
 
 .newsletter{
     background-color: white;
-    height: 90px;
+    height: 9rem;
     
 }
 
 .newsletter-text{
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .newsletter-btn{
-    min-height: 32px;
+    min-height: 3.2rem;
     border: solid #222222c4 1px;
 }
 
@@ -29,4 +29,10 @@
 .news:hover{
     color: #222222de;
     cursor: pointer;
+}
+
+@media screen and (max-width: 37.5em) {
+    .newsletter-text{
+        font-size: 1.7rem;
+    }
 }

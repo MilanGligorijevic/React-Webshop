@@ -1,5 +1,5 @@
 .sale-title{
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .red-text{
@@ -8,6 +8,9 @@
 
 .sale-products-div{
     color: red;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .product-on-sale{
@@ -18,7 +21,13 @@
     position: absolute;
     bottom: 2%;
     left: 25%;
-    font-size: 17px;
+    font-size: 1.7rem;
     color: #222222d3;
     text-decoration: line-through;
+}
+
+@media screen and (max-width: 56.25em) {
+    .full-price{
+        left: 33%;
+    }
 }

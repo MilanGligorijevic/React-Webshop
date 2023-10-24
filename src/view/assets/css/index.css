@@ -3,4 +3,21 @@
 body, html{
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #F9F7F7;
+    font-size: 62.5%;
+    /* defining 1 rem */
 }
+
+/* MEDIA QUERY 
+0 - 600px (37.5em): phone
+600 - 900px (56.25em): tablet protrait DONE
+900 - 1200px (75em): tablet landscape DONE
+1200 - 1800px (112.5em): normal style DONE
+1800px+: big desktop 
+*/
+
+
+/* @media screen and (max-width: 600px) {
+    body {
+      background-color: red;
+    }
+  } */

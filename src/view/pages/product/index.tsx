@@ -11,6 +11,7 @@ import deliverypin from "../../assets/images/deliverypin.png";
 import Rating from "@mui/material/Rating";
 import Review from "../../components/review";
 import addedItemIcon from "../../assets/images/added-to-cart.png";
+import MobileProductImageSlider from "../../components/mobileProductImageSlider";
 
 
 //SMANJITI OVU KOMPONENTU NEKAKO, PRETRPANA JE
@@ -77,13 +78,16 @@ function ProductPage() {
     }
 
     return (
-        <>
+        <div className="product-page">
             <Navbar />
             <NavbarBottom />
             {
                 product &&
                 <div className="products-page d-flex mt-3 mb-2">
                     <ProductImageSlider images={product.images} />
+                    <div className="mobile-product-image-slider">
+                        <MobileProductImageSlider images={product.images} />
+                    </div>
                     <div className="product-details ml-3">
                         <h2>{product.title}</h2>
                         <Rating
@@ -91,7 +95,7 @@ function ProductPage() {
                             value={product.rating}
                             precision={0.5}
                             readOnly
-                            size="medium"
+                            size="large"
                         />
                         <div className="product-detail">On stock: <span className="font-weight-bold">Yes</span> </div>
                         {/* napraviti proveru da li je proizvod na stanju mozda*/}
@@ -121,7 +125,7 @@ function ProductPage() {
                 <Review reviewNumber={3} />
             </div>
             <Footer />
-        </>
+        </div>
     );
 }
 

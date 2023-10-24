@@ -5,6 +5,7 @@ import logo from '../../assets/images/logo.png';
 import shoppingIcon from '../../assets/images/shoppingicon.png';
 import SearchBar from "../searchBar";
 import SignIn from "../signIn";
+import NavbarBottomMobile from "../navbarBottomMobile";
 
 function Navbar() {
     return (
@@ -25,9 +26,10 @@ function Navbar() {
                             <img className="shopping-icon img-fluid" src={shoppingIcon} />
                         </div>
                     </Link>
-
+                    <NavbarBottomMobile />
                 </div>
             </div>
+            <div className="hr-mobile"></div>
         </nav>
     );
 }

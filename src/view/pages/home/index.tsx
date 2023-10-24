@@ -3,6 +3,7 @@ import './css/index.css';
 import Navbar from "../../components/navbar";
 import CategoriesSection from "../../components/categories";
 import image from "../../assets/images/onlineshopping.jpg";
+import imageMobile from "../../assets/images/onlineshoppingmobile.jpg";
 import NavbarBottom from "../../components/navbarBottom";
 import Footer from "../../components/footer";
 import CategorySlider from "../../components/categorySlider";

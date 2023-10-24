@@ -43,7 +43,7 @@ function Footer() {
                 <hr className="horizontal-line"></hr>
                 <div className="footer-socials d-flex justify-content-center align-items-center pb-2">
                     <img className="language-img mr-2" src={languageFlag} alt="language logo" />
-                    <div>© 2023 A-Z. All rights reserved. by <a className="my-github" href="https://github.com/MilanGligorijevic">MG</a></div>
+                    <div className="rights-div">© 2023 A-Z. All rights reserved. by <a className="my-github" href="https://github.com/MilanGligorijevic">MG</a></div>
                 </div>
             </div>
         </div>

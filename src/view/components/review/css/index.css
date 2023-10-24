@@ -1,7 +1,32 @@
 .review-div{
     flex-direction: column;
-    gap: 5px;
+    gap: .5rem;
     width: 20vw;
     min-width: 15vw;
     text-align: justify;
+    font-size: 1.6rem;
+}
+
+.review-title{
+    font-size: 1.9rem;
+}
+
+@media screen and (max-width: 56.25em){
+    .review-div{
+        font-size: 1.25rem;
+        gap: .3rem;
+    }
+    .review-title{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 37.5em){
+    .review-div{
+        font-size: 1.1rem;
+        gap: .3rem;
+    }
+    .review-title{
+        font-size: 1.3rem;
+    }
 }

@@ -1,6 +1,6 @@
 .product-image{
-    width: 75px;
-    height: 75px;
+    width: 7.5rem;
+    height: 7.5rem;
 }
 
 .product-image:hover{
@@ -14,7 +14,27 @@
 }
 
 .main-image{
-    width: 400px;
-    height: 400px;
+    width: 40rem;
+    height: 40rem;
     object-fit: cover;
+}
+
+@media screen and (max-width: 56.25em){
+    .main-image{
+        width: 28rem;
+        height: 28rem;
+    }
+    .product-image{
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+}
+
+@media screen and (max-width: 37.5em){
+    .product-image{
+        display: none;
+    }
+    .main-image-div{
+        display: none;
+    }
 }

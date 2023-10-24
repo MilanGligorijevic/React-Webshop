@@ -1,6 +1,6 @@
 .product-preview-img{
-    height: 275px;
-    width: 275px;
+    height: 28rem;
+    width: 28rem;
     object-fit: cover;
 }
 
@@ -18,10 +18,43 @@
 }
 
 .product-price{
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 
 .product-caption{
-    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+
+@media screen and (max-width: 56.25em){
+    .product{
+        width: 20rem;
+    }
+    .product-preview-img{
+        height: 19rem;
+        width: 19rem;
+        object-fit: cover;
+    }
+    .product-title{
+        text-overflow: ellipsis;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+    .product{
+        width: 22rem;
+    }
+    .product-preview-img{
+        height: 21rem;
+        width: 21rem;
+        object-fit: cover;
+    }
+    .product-title{
+        text-overflow: ellipsis;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
 }

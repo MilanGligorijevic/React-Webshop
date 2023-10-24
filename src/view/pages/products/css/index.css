@@ -2,10 +2,32 @@
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    row-gap: 25px;
+    row-gap: 2.5rem;
 }
 
 .all-products-text{
-    font-size: 30px;
+    font-size: 3rem;
     color: #222;
 }
+
+@media screen and (max-width: 75em) {
+    .sale-products-div{
+        row-gap: 2.6rem;
+    }
+  }
+
+  @media screen and (max-width: 56.25em) {
+    .sale-products-div{
+        row-gap: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 37.5em) {
+    .sale-products-div{
+        row-gap: 1rem;
+    }
+    .products-container{
+        row-gap: 1rem;
+    }
+  }
+
