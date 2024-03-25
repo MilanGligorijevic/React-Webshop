@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./css/index.css";
 import { Link } from "react-router-dom";
-import CategoriesDropdown from "../categoriesDropdown";
 
 
 function NavbarBottomMobile() {

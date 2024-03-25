@@ -64,4 +64,11 @@
     .dropdown-mobile{
         display: block;
     }
+
+    .dropdown-list-mobile{
+        width: 10rem;
+        position: absolute;
+        top: 5.4rem;
+        right: 0rem;
+    }
 }

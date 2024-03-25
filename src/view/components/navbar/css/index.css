@@ -1,79 +1,80 @@
-.nav-root {
-  background-color: #f9f7f7;
+.nav-root{
+    background-color: #F9F7F7;
 }
 
-.nav-bar {
-  margin-left: 15%;
-  margin-right: 15%;
-  width: 70%;
+.nav-bar{ 
+    margin-left:15%;
+    margin-right:15%;
+    width: 70%;
 }
 
-.nav-logo-brand {
-  width: 5.8rem;
-  height: 5.8rem;
+.nav-logo-brand{
+    width: 5.8rem;
+    height: 5.8rem;
 }
 
-.nav-bar-links {
-  font-size: large;
+.nav-bar-links{
+    font-size: large;
 }
 
-.logo-img {
-  width: 5.8rem;
-  height: 5.8rem;
-  min-width: 5.5rem;
-  min-height: 5.5rem;
+.logo-img{
+    width: 5.8rem;
+    height: 5.8rem;
+    min-width: 5.5rem;
+    min-height: 5.5rem;
 }
 
-.nav-profile-icon {
-  width: 2.3rem;
-  height: 2.3rem;
+
+
+.nav-profile-icon{
+    width: 2.3rem;
+    height: 2.3rem;
 }
 
-.profile-icon {
-  min-width: 2.3rem;
-  min-height: 2.3rem;
+.profile-icon{
+    min-width: 2.3rem;
+    min-height: 2.3rem;
 }
 
-.nav-shopping-icon {
-  position: relative;
-  width: 2.3rem;
-  height: 2.3rem;
+.nav-shopping-icon{
+    position: relative;
+    width: 2.3rem;
+    height: 2.3rem;
 }
 
-.shopping-icon {
-  min-width: 2.3rem;
-  min-height: 2.3rem;
+.shopping-icon{
+    min-width: 2.3rem;
+    min-height: 2.3rem;
 }
 
-.shopping-items {
-  position: absolute;
-  left: 1.2rem;
-  top: 0.3rem;
-  color: #222;
+.shopping-items{
+    position: absolute;
+    left: 1.2rem;
+    top: 0.3rem;
+    color: #222;
 }
 
-.hr-mobile {
-  display: none;
+.hr-mobile{
+    display: none;
 }
 
 @media screen and (max-width: 37.5em) {
-  .nav-root {
-    min-width: 100vw;
-  }
-  .nav-bar {
-    margin-left: 2%;
-    margin-right: 2%;
-    width: 80%;
-  }
-  .logo-img {
-    width: 5.6rem;
-    height: 5.6rem;
-    min-width: 5.5rem;
-    min-height: 5.5rem;
-  }
-  .hr-mobile {
-    display: block;
-    background-color: #2e2e2e;
-    height: 0.4rem;
-  }
+    .nav-bar{ 
+        margin-left:1%;
+        margin-right:1%;
+        width: 100%;
+    }
+    .logo-img{
+        width: 5.6rem;
+        height: 5.6rem;
+        min-width: 5.5rem;
+        min-height: 5.5rem;
+    }
+    .hr-mobile{
+        display: block;
+        background-color: #2e2e2e;
+        height: .4rem;
+    }
 }
+
+
