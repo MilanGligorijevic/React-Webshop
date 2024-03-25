@@ -6,8 +6,10 @@ import shoppingIcon from '../../assets/images/shoppingicon.png';
 import SearchBar from "../searchBar";
 import SignIn from "../signIn";
 import NavbarBottomMobile from "../navbarBottomMobile";
+import { useDispatch, useSelector } from 'react-redux';
 
 function Navbar() {
+
     return (
         <nav className="nav-root">
             <div className="nav-bar d-flex align-items-center justify-content-between mb-0">

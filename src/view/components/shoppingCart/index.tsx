@@ -72,7 +72,7 @@ function ShoppingCartComponent() {
                             return (
 
                                 <div className="item-div d-flex">
-                                    <img src={item.images[0]} className="item-thumbnail" />
+                                    <img src={item.images[0]} className="item-thumbnail" alt={item.brand} />
                                     <div className="item-title">{item.title}</div>
                                     <AddMoreItems {...item} />
                                 </div>

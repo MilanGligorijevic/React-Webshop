@@ -1,13 +1,12 @@
-.categories-container{
-  margin-left:10%;
-  margin-right:10%;
+.categories-container {
+  margin-left: 10%;
+  margin-right: 10%;
   width: 80%;
 }
 
-@media screen and (max-width: 37.5em){
-  .categories-container{
-    margin-left:12%;
-    margin-right:12%;
-    width: 76%;
+@media screen and (max-width: 37.5em) {
+  .categories-container {
+    margin: 0px;
+    width: 100%;
   }
 }

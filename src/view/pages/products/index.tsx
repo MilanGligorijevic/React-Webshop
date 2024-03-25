@@ -27,16 +27,6 @@ function Products() {
     }, []);
     console.log(products);
 
-    function addFilteredProductCategory() {
-
-    }
-
-    function removeFilteredProductCategory() {
-
-    }
-
-
-
     return (
         <>
             <Navbar />

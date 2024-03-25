@@ -1,4 +1,4 @@
-import React, { ReactComponentElement, useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import profileIcon from "../../assets/images/profileicon.png";
 import "./css/index.css";
 import SignInForm from "../signInForm";
@@ -6,8 +6,6 @@ import SignInForm from "../signInForm";
 function SignIn() {
 
     const [showForm, setShowForm] = useState(false);
-
-
 
 
     function closeForm() {
