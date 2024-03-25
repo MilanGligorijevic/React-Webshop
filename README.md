@@ -1,6 +1,6 @@
 # Technologies used
 
-TS, HTML, CSS, React and Public API for mocking products base.
+TS, HTML, CSS, Bootstrap, React and Public API for mocking products base.
 
 # Getting Started with Create React App
 
